@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- navabar+hero-section-started -->
+    <div class="main-section">
+        <!-- navbar for lg screens -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="../images/dots-menu.png" alt="Menu" width="20" height="20">
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item animate__animated animate__tada
+                            ">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item animate__animated animate__tada">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item animate__animated animate__tada">
+                            <a class="nav-link " href="#" role="button">
+                                Services
+                            </a>
+                        <li class="nav-item animate__animated animate__tada">
+                            <a class="nav-link" href="#">Upcoming Packages</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn animate__animated animate__fadeInUp" type="submit">Get In Touch</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ended for lg screens -->
+
+        <!-- navbar started for small screens -->
+        <nav class="navbar navbar-expand-lg bg-transparent d-block d-lg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <img src="../images/dots-menu.png" alt="Menu" width="20" height="20">
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header justify-content-center">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body animate__animated animate__fadeInRight">
+                        <img src="../images/logo.png" alt="Sidebar Image">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item animate__animated animate__fadeInUp">
+                                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item animate__animated animate__fadeInUp">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item animate__animated animate__fadeInUp">
+                                <a class="nav-link text-white" href="#">Services</a>
+                            </li>
+                            <li class="nav-item animate__animated animate__fadeInUp">
+                                <a class="nav-link text-white" href="#">Upcoming Packages</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex justify-content-center mt-3" role="search">
+                            <button class="btn btn-light animate__animated animate__pulse" type="submit">Get In
+                                Touch</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ended for small screens -->
+
+        <!-- hero-section-started -->
+        <div class="hero-section">
+            <p class="text-center fw-bold">Search Tour</p>
+            <h1 class="display-1 text-center fw-bold animate__animated animate__flipInX">Travel with Us</h1>
+        </div>
+    </div>
+    <!-- hero-section-ended -->
+    <!-- cards-section-start -->
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/schedule (3).png" alt="Calendar">
+                    <p>Date</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/up-arrow.png" alt="Upload">
+                    <p>Price Low to High</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/download.png" alt="Download">
+                    <p>Price High to Low</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/pencil.png" alt="Write">
+                    <p>Name (A-Z)</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/schedule (3).png" alt="Calendar">
+                    <p>Date</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/up-arrow.png" alt="Upload">
+                    <p>Price Low to High</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/download.png" alt="Download">
+                    <p>Price High to Low</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="../images/pencil.png" alt="Write">
+                    <p>Name (A-Z)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card-section-ended -->
+    <!-- features-section-end -->
+    <div class="container custom-main-container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="row row-cols-1 row-cols-md-2 g-4 mb-5" id="cardContainer">
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center" id="pagination">
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                <div class="form-container">
+                    <h2 class="form-title">Plan Your Trip</h2>
+                    <p class="form-description">Plan your next journey effortlessly with our simple form below.</p>
+                    <form class="plan-trip-form">
+                        <input type="text" placeholder="Search Tour" class="form-control mb-3">
+                        <input type="text" placeholder="Where To?" class="form-control mb-3">
+                        <input type="date" class="form-control mb-4">
+                        <button type="submit" class="btn btn-primary w-100">Book Now</button>
+                    </form>
+                </div>
+                <div class="form-below-image-wrapper text-center mt-5">
+                    <img src="../images/form-below.png" alt="Travel Image" class="img-fluid form-below-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- features-section-ended -->
+    <!-- extra section started -->
+    <div class="discount">
+        <section class="parallax-hero">
+            <div class="hero-content">
+                <h1>15% OFF</h1>
+                <h2>Aerial view of Cape Town with Cape Town Stadium</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel velit auctor aliquet.
+                </p>
+                <a href="#" class="button">VIEW MORE</a>
+            </div>
+        </section>
+    </div>
+    <!-- extra section started -->
+    <!-- footer started -->
+    <div class="footer">
+        <footer class="footer pt-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center text-md-start">
+                        <img src="../images/logo (1).png" alt="Travel" class="img-fluid mb-3 logo-img">
+                        <div class="social-links d-flex justify-content-center justify-content-md-start mb-4">
+                            <a href="#"><img src="../images/052-linkedin.png" alt="LinkedIn"></a>
+                            <a href="#"><img src="../images/025-messenger.png" alt="Messenger"></a>
+                            <a href="#"><img src="../images/096-twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="../images/097-twoo.png" alt="Twoo"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <h3 class="footer-title">Company</h3>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <h3 class="footer-title">Destinations</h3>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="#">Maldives</a></li>
+                            <li><a href="#">Los Angeles</a></li>
+                            <li><a href="#">Las Vegas</a></li>
+                            <li><a href="#">Toronto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center text-md-start">
+                        <h3 class="footer-title">Join Our Newsletter</h3>
+                        <p class="mb-4 newsletter-text">Subscribe to our newsletter for updates, news, and exclusive
+                            offers.</p>
+                        <form class="mb-4 newsletter-form-custom">
+                            <div class="input-group">
+                                <input type="email" class="form-control newsletter-input" placeholder="Enter your email"
+                                    aria-label="Enter your email">
+                                <button class="btn btn-subscribe text-white" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                        <p class="small newsletter-note">
+                            * Will send you weekly updates for your better tour packages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom mt-5">
+                &copy; 2025 Travel. All rights reserved.
+            </div>
+        </footer>
+    </div>
+    <!-- footer ended -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

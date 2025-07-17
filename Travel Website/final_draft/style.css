@@ -1,0 +1,1709 @@
+/* navbar-hero-section-added */
+.navbar {
+    background-color: transparent !important;
+
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img {
+    width: 150px;
+    margin-left: 55px;
+}
+
+.nav-item {
+    margin-right: 80px;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.btn {
+    background-color: #df6951;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item a {
+    color: #ffffff !important;
+}
+/* navbar-section-end */
+/* hero-section */
+.main-section {
+    background-image: url("../images/bgimg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    background-image: url('../images/bgimg.png');
+    background-color: #0d6efd;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.hero-section h1 {
+    font-family: "Yesteryear", cursive;
+    color: white;
+    font-size: 130px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 0;/
+}
+
+.hero-section p {
+    font-family: 'Albert Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.1;
+}
+
+.hero-content h2 {
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    margin: 0.5rem 0 1.5rem 0;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.hero-content p {
+    font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+    margin: 1.5rem 0 2rem 0;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* features-box */
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 4))
+    }
+
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    max-width: 960px;
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin-top: -60px;
+    border-radius: 15px;
+    background-color: rgb(242, 242, 242);
+
+}
+
+.slider::before,
+.slider::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider .slide-track {
+    animation: scroll 20s linear infinite;
+    display: flex;
+    width: calc(250px * 8);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -10px;
+
+}
+
+.content img {
+    width: 20px;
+    margin-bottom: 20px;
+
+}
+
+.content p {
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.offcanvas {
+    background: transparent !important;
+}
+
+.offcanvas-body {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+}
+
+.offcanvas-body img {
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    animation: fadeInDown 1s;
+}
+
+/* Prevent mobile navbar logo and menu button from stacking */
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 120px;
+        /* reduce size on mobile */
+        margin-left: 0;
+        /* remove extra margin */
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+        /* push toggler to the right */
+    }
+}
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Main Hero Section */
+.main-section {
+    background-image: url('./images/bgimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Hero Inner Content */
+.hero-section {
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero-section h1 {
+    font-family: "Yesteryear", cursive;
+    font-size: 10vw;
+    margin-bottom: 0;
+}
+
+.hero-section p {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 12vw;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+}
+
+/* card-section-started */
+/* Custom Container for the whole section */
+.custom-main-container {
+    max-width: 1200px;
+    width: 95%;
+    /* Keep this, it's good for overall responsiveness */
+    margin: 0 auto;
+    /* Center the container */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 30px;
+    /* Removed overflow-x: hidden here to allow deeper debugging if needed, rely on html/body */
+}
+
+/* Bootstrap's Row and Column Adjustments */
+/* These are generally fine. Bootstrap's g-4 handles gutters responsively. */
+/* No custom margin-left/right needed here */
+
+/* Card Specific Styles */
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    /* Essential for card image border-radius and content clipping */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    border: none;
+    height: 100%;
+    /* Ensures all cards in a row have equal height */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header-custom {
+    min-height: 250px;
+    /* Can be adjusted down in media queries */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Align content to the bottom of the header */
+    position: relative;
+    color: white;
+    z-index: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px 20px;
+    /* Padding within the header */
+    overflow: hidden;
+    /* Hide any overflow within the header itself */
+}
+
+.card-body {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0;
+    flex-wrap: nowrap;
+    /* Keep on single line by default */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info-icons span {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    /* Add a small margin between spans for tiny screens if they get too close */
+    margin-right: 5px;
+    /* Added small margin between the two spans */
+}
+
+.info-icons i {
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.card-title-main {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text-description {
+    font-size: 0.9rem;
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1f2937;
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    flex-wrap: wrap;
+    /* Allow price and rating to wrap if needed */
+    gap: 10px;
+}
+
+.price {
+    font-weight: 700;
+    color: #df6951;
+    font-size: 1.1rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: #f59e0b;
+    white-space: nowrap;
+}
+
+.rating i {
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+/* Form Section Styles - Unchanged, assuming they are fine */
+.form-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.form-description {
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+
+.plan-trip-form .form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-trip-form .form-control:focus {
+    border-color: #df6951;
+    box-shadow: 0 0 0 0.25rem rgba(223, 105, 81, 0.25);
+    outline: none;
+}
+
+.plan-trip-form .btn-primary {
+    background-color: #df6951;
+    border-color: #df6951;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.plan-trip-form .btn-primary:hover {
+    background-color: #c75b47;
+    border-color: #c75b47;
+}
+
+.form-below-image-wrapper {
+    text-align: center;
+}
+
+.form-below-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Pagination styles - Unchanged, assuming they are fine */
+.pagination {
+    margin-top: 30px;
+    --bs-pagination-padding-x: 0.75rem;
+    --bs-pagination-padding-y: 0.375rem;
+    --bs-pagination-font-size: 1rem;
+    --bs-pagination-color: #6b7280;
+    --bs-pagination-bg: #fff;
+    --bs-pagination-border-width: 0;
+    --bs-pagination-border-color: transparent;
+    --bs-pagination-border-radius: 50%;
+    --bs-pagination-hover-color: #4b5563;
+    --bs-pagination-hover-bg: #e5e7eb;
+    --bs-pagination-hover-border-color: transparent;
+    --bs-pagination-focus-color: #4b5563;
+    --bs-pagination-focus-bg: #e5e7eb;
+    --bs-pagination-focus-box-shadow: none;
+    --bs-pagination-active-color: #fff;
+    --bs-pagination-active-bg: #df6951;
+    --bs-pagination-active-border-color: #df6951;
+    --bs-pagination-disabled-color: #adb5bd;
+    --bs-pagination-disabled-bg: #e9ecef;
+    --bs-pagination-disabled-border-color: transparent;
+}
+
+.pagination .page-item .page-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% !important;
+    margin: 0 5px;
+}
+
+/* --- NEW MEDIA QUERY FOR VERY SMALL SCREENS (UNDER 390px) --- */
+@media (max-width: 390px) {
+    .custom-main-container {
+        padding: 10px;
+        /* Reduce main container padding further */
+        width: 100%;
+        /* Take full width, letting internal padding/margins manage space */
+    }
+
+    /* Target the columns for cards */
+    .col-12.col-lg-8 {
+        /* This column contains your cards */
+        padding-left: 5px;
+        /* Reduce default Bootstrap column padding */
+        padding-right: 5px;
+    }
+
+    /* Specific card adjustments */
+    .card {
+        margin-bottom: 15px;
+        /* Ensure space between stacked cards */
+    }
+
+    .card-header-custom {
+        min-height: 200px;
+        /* Reduce minimum height of card image header */
+        padding: 10px;
+        /* Reduce internal padding within header */
+    }
+
+    .info-icons {
+        font-size: 0.75rem;
+        /* Smaller font for date/people */
+        /* If they still get cut off, consider making them stackable with flex-wrap: wrap; */
+        /* For now, let's keep nowrap and see if font size helps. If not, uncomment below: */
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        /* gap: 5px; */
+    }
+
+    .info-icons span {
+        margin-right: 3px;
+        /* Reduce space between date/people on tiny screens */
+    }
+
+    .card-body {
+        padding: 10px 15px;
+        /* Reduce card body padding */
+    }
+
+    .card-title-main {
+        font-size: 1.1rem;
+        /* Smaller card title */
+    }
+
+    .card-text-description {
+        font-size: 0.8rem;
+        /* Smaller card description text */
+    }
+
+    .card-footer {
+        padding: 10px 15px;
+        /* Reduce card footer padding */
+        font-size: 0.9rem;
+        flex-direction: column;
+        /* Stack price and rating vertically */
+        align-items: flex-start;
+        /* Align stacked items to the left */
+        gap: 5px;
+        /* Reduce gap when stacked */
+    }
+
+    .price {
+        font-size: 1rem;
+        /* Adjust price font size */
+    }
+
+    .rating {
+        font-size: 0.9rem;
+        /* Adjust rating font size */
+    }
+
+    /* Form Section Adjustments */
+    .col-12.col-lg-4 {
+        /* This column contains your form */
+        padding-left: 5px;
+        /* Reduce default Bootstrap column padding */
+        padding-right: 5px;
+    }
+
+    .form-container {
+        padding: 15px;
+        /* Reduce form container padding */
+    }
+
+    .form-title {
+        font-size: 1.5rem;
+        /* Smaller form title */
+    }
+
+    .form-description {
+        font-size: 0.85rem;
+        /* Smaller form description */
+    }
+
+    .plan-trip-form .form-control {
+        padding: 10px 12px;
+        /* Smaller input padding */
+        font-size: 0.9rem;
+    }
+
+    .plan-trip-form .btn-primary {
+        padding: 10px 15px;
+        /* Smaller button padding */
+        font-size: 1rem;
+    }
+
+    .form-below-image {
+        margin-top: 15px;
+        /* Reduce margin below form */
+    }
+
+    /* Pagination adjustments for very small screens */
+    .pagination .page-item .page-link {
+        width: 30px;
+        /* Even smaller pagination circles */
+        height: 30px;
+        font-size: 0.8rem;
+        margin: 0 3px;
+    }
+}
+
+
+/* Media Queries for overall layout adjustments (keeping previous ones) */
+@media (max-width: 991.98px) {
+    .custom-main-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    /* These apply for screens up to 767.98px, but the 390px media query will override
+       specific rules when the screen gets even smaller. */
+    .custom-main-container {
+        padding: 15px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    .form-below-image {
+        margin-top: 20px;
+    }
+
+    .pagination .page-item .page-link {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .card-page {
+        grid-template-columns: 1fr;
+        /* One card per row on smaller screens */
+    }
+}
+
+.trip-form {
+    display: flex;
+}
+
+.trips {
+    display: flex;
+}
+
+/* ✅ General Fix: Ensure container never overflows */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* ✅ Responsive Grid Fix for Card Columns */
+@media (max-width: 991.98px) {
+    .custom-main-container {
+        padding: 15px;
+    }
+
+    .row-cols-1.row-cols-md-2 {
+        row-gap: 20px;
+    }
+}
+
+/* ✅ Make cards stack properly on all small screens */
+@media (max-width: 767.98px) {
+    .custom-main-container {
+        padding: 15px;
+    }
+
+    .col-12.col-lg-8 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .col-12.col-lg-4 {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-below-image-wrapper {
+        display: none;
+    }
+}
+
+/* ✅ Extra tight adjustments for very small devices */
+@media (max-width: 480px) {
+    .custom-main-container {
+        padding: 10px;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+
+    .card-header-custom {
+        min-height: 180px;
+        padding: 10px;
+    }
+
+    .card-body {
+        padding: 10px 12px;
+    }
+
+    .card-footer {
+        padding: 10px 12px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .form-title {
+        font-size: 1.4rem;
+    }
+
+    .form-description {
+        font-size: 0.85rem;
+    }
+
+    .plan-trip-form .form-control {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+
+    .plan-trip-form .btn-primary {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .pagination .page-item .page-link {
+        width: 28px;
+        height: 28px;
+        font-size: 0.75rem;
+        margin: 0 2px;
+    }
+}
+
+.info-icons {
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+    /* Allow the two spans to wrap on smaller screens */
+    justify-content: flex-start;
+    /* Align left when wrapping */
+    gap: 6px;
+    /* Add spacing between wrapped items */
+}
+
+.info-icons span {
+    margin-right: 0;
+    flex: 1 1 100%;
+    /* Force each to take full row if needed */
+}
+
+@media (max-width: 300px) {
+    .custom-main-container {
+        padding: 5px;
+    }
+
+    .card {
+        margin: 0 auto;
+        /* Center the card */
+        width: 100%;
+        /* Make it use full width of parent */
+    }
+
+    .card-header-custom {
+        padding: 8px;
+        min-height: 180px;
+        /* reduce header height further */
+    }
+
+    .info-icons {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.7rem;
+        gap: 4px;
+    }
+
+    .info-icons span {
+        flex: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .card-title-main {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .card-text-description {
+        font-size: 0.75rem;
+        text-align: left;
+    }
+
+    .card-footer {
+        font-size: 0.85rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+
+    /* Hide the form image below form on tiny screens */
+    .form-below-image-wrapper {
+        display: none;
+    }
+
+    .plan-trip-form .btn-primary {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .pagination .page-item .page-link {
+        width: 28px;
+        height: 28px;
+        font-size: 0.75rem;
+        margin: 2px;
+    }
+}
+
+@media (max-width: 300px) {
+    .custom-main-container {
+        padding: 0 !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .custom-main-container {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .custom-main-container .row {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-main-container .col-12 {
+        width: 100% !important;
+        max-width: 280px;
+    }
+
+    .form-below-image-wrapper {
+        display: none !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .custom-main-container {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .custom-main-container .row {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Ensure both card and form sections are centered */
+    .custom-main-container .col-12.col-lg-8,
+    .custom-main-container .col-12.col-lg-4 {
+        width: 100% !important;
+        max-width: 280px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust card container layout */
+    #cardContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    /* Hide form image */
+    .form-below-image-wrapper {
+        display: none !important;
+    }
+}
+
+
+.login-card {
+    background: white;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    margin-bottom: 200%;
+}
+
+.brand {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.brand-logo {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
+
+.brand h1 {
+    font-size: 1.75rem;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.brand p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e1e1e1;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #000;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.remember-me input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.remember-me label {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.forgot-password {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+.social-login {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-login p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.social-login p::before,
+.social-login p::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background: #e1e1e1;
+}
+
+.social-login p::before {
+    left: 0;
+}
+
+.social-login p::after {
+    right: 0;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #e1e1e1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    border-color: #000;
+    background: #f5f5f5;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.signup-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    display: none;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20%,
+    60% {
+        transform: translateX(-5px);
+    }
+
+    40%,
+    80% {
+        transform: translateX(5px);
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease;
+}
+
+.card {
+    border-radius: 0.75rem;
+    /* Rounded corners for cards */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s ease-in-out;
+    border: none;
+    /* Remove default card border */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.paris {
+    background-image: url("../images/bgimg.png");
+}
+
+.card-header-custom {
+    min-height: 200px;
+    /* Ensure header has enough height */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+
+}
+
+.card-title-main {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.info-icons {
+    font-size: 0.85rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: #df6951;
+    margin-top: -45px;
+    width: 300px;
+    padding: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+.form {
+    margin-top: 200px;
+}
+
+.info-icons i {
+    margin-right: 0.25rem;
+}
+
+.card-footer {
+    background-color: #fff;
+    /* White background for footer */
+    border-top: 1px solid #dee2e6;
+    /* Light border at top of footer */
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.rating {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffc107;
+    /* Bootstrap yellow for star */
+}
+
+.rating i {
+    margin-left: 0.25rem;
+}
+
+.pagination .page-item .page-link {
+    border-radius: 0.5rem;
+    /* Rounded corners for pagination links */
+    margin: 0 0.25rem;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    /* Bootstrap primary blue */
+    border-color: #0d6efd;
+    box-shadow: 0 0.125rem 0.25rem rgba(13, 110, 253, 0.2);
+}
+
+.pagination {
+    --bs-pagination-border-radius: 0.5rem;
+    /* Ensure consistent border-radius */
+}
+
+/* Styling for the login form container */
+.login-form-container {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.login-form-container h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #28a745;
+    /* Green color for login title */
+}
+
+.form-control.rounded-pill {
+    border-radius: 50rem !important;
+    /* Make input fields fully rounded */
+}
+
+/* extra-section-started */
+.parallax-hero {
+    position: relative;
+    /* Removed fixed height: 70vh; to allow for more flexible height based on content
+       and media queries, which can sometimes make 'cover' look bad.
+       Instead, we'll set a padding to create height. */
+    padding: 100px 0;
+    /* Add vertical padding to create height */
+    min-height: 450px;
+    /* Ensure a minimum height for the section */
+
+    display: flex;
+    align-items: center;
+    /* Vertically center the content */
+    justify-content: center;
+    /* Horizontally center the content */
+    color: white;
+    text-align: center;
+
+    /* Background image setup for parallax */
+    background-image: url('https://www.novo-monde.com/app/uploads/2019/05/travel-the-world.png');
+    background-size: cover;
+    /* Ensures the image covers the entire area */
+    background-position: center center;
+    /* Centers the image more precisely */
+    background-attachment: fixed;
+    /* Key for parallax effect */
+    background-repeat: no-repeat;
+    /* Ensure image doesn't repeat if smaller than container */
+}
+
+/* Create a dark overlay directly on the parallax-hero */
+.parallax-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    /* Slightly darker translucent overlay for better text contrast */
+    z-index: 1;
+    /* Ensure it's above the background image */
+}
+
+/* Styling for the content within the hero section */
+.hero-content {
+    position: relative;
+    /* Position relative to z-index it above the ::before pseudo-element */
+    z-index: 2;
+    /* Ensure content is above the overlay */
+    background: #df6951c0;
+    /* Your solid orange background for the content box */
+    padding: 2.5rem 2rem;
+    /* Generous padding for a better look */
+    border-radius: 8px;
+    max-width: 700px;
+    /* A good max-width for readability on large screens */
+    width: 90%;
+    /* Take 90% width on smaller screens, up to max-width */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+    margin: 0 auto;
+    /* Center the content block */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    /* Optional: add a subtle shadow for depth */
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    /* Responsive font size for H1 */
+    margin: 0 0 0.5rem 0;
+    /* Add bottom margin */
+    line-height: 1.1;
+}
+
+.hero-content h2 {
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    /* Responsive font size for H2 */
+    margin: 0.5rem 0 1.5rem 0;
+    /* Adjust margin */
+    font-style: italic;
+    opacity: 0.9;
+    /* Slightly less prominent */
+}
+
+.hero-content p {
+    font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+    /* Responsive font size for paragraph */
+    margin: 1.5rem 0 2rem 0;
+    /* Adjust margin */
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.button {
+    background: white;
+    color: #df6951;
+    /* Match the orange from the background */
+    padding: 0.9rem 2rem;
+    /* Increased padding for a larger button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    /* More rounded corners */
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    display: inline-block;
+    margin-top: 1rem;
+    border: 2px solid white;
+    /* Add a subtle white border */
+    text-transform: uppercase;
+    /* Make text uppercase */
+    letter-spacing: 1px;
+    /* Add slight letter spacing */
+}
+
+.button:hover {
+    background: #df6951;
+    /* Match the orange from the background */
+    color: white;
+    border-color: #df6951;
+    /* Change border color on hover */
+    transform: translateY(-2px);
+    /* Slight lift effect */
+}
+
+
+/* Media Queries for Responsiveness */
+
+/* General adjustments for all screens smaller than 992px (typical for tablets and phones) */
+@media (max-width: 991.98px) {
+    .parallax-hero {
+        padding: 80px 0;
+        /* Reduce vertical padding */
+        min-height: 400px;
+        background-position: center;
+        /* Ensure image is centered */
+    }
+
+    .hero-content {
+        padding: 2rem 1.5rem;
+        /* Reduce padding for smaller screens */
+        max-width: 95%;
+        /* Allow it to take more width */
+    }
+}
+
+/* For smaller screens (e.g., phones) */
+@media (max-width: 767.98px) {
+    .parallax-hero {
+        padding: 60px 0;
+        min-height: 350px;
+        /* On smaller screens, sometimes 'fixed' attachment can be jarring or perform poorly.
+           Consider changing it to 'scroll' or removing it if it causes issues. */
+        background-attachment: scroll;
+        background-position: center;
+        /* Ensure image is centered */
+    }
+
+    .hero-content {
+        padding: 1.5rem 1rem;
+        /* Further reduce padding */
+        width: 95%;
+        /* Ensure it always takes most of the width */
+    }
+
+    .hero-content h1 {
+        font-size: clamp(2rem, 9vw, 3rem);
+        /* Smaller base for H1 on small screens */
+    }
+
+    .hero-content h2 {
+        font-size: clamp(0.9rem, 3.5vw, 1.2rem);
+        /* Smaller base for H2 */
+    }
+
+    .hero-content p {
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+        /* Smaller base for paragraph */
+    }
+
+    .button {
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+/* For very small screens (e.g., old phones in landscape) */
+@media (max-width: 575.98px) {
+    .parallax-hero {
+        padding: 40px 0;
+        min-height: 300px;
+    }
+
+    .hero-content {
+        padding: 1.2rem 0.8rem;
+    }
+}
+
+/* extra-section-ended */
+
+/* footer started */
+.footer {
+    background: linear-gradient(145deg, #1a1c23, #242730);
+    color: #ffffff;
+    background-image: url("../images/Footer img.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 60px 20px;
+}
+
+.footer .container {
+    max-width: 1200px;
+}
+
+.logo-img {
+    max-width: 150px;
+    height: auto;
+}
+
+.social-links {
+    gap: 10px;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.social-links a img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.social-links a:hover {
+    background: #6c5ce7;
+    transform: translateY(-3px);
+}
+
+.footer-title {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    position: relative;
+    text-align: left;
+}
+
+@media (max-width: 767.98px) {
+    .footer-title {
+        text-align: center;
+    }
+
+    .footer-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+.footer-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 30px;
+    height: 2px;
+    background: #6c5ce7;
+}
+
+.footer-links {
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.7rem;
+}
+
+.footer-links a {
+    color: #b4b6bb;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.newsletter-text {
+    color: #9c9aa6;
+}
+
+.newsletter-form-custom .input-group {
+    flex-wrap: wrap;
+}
+
+.newsletter-input {
+    flex: 1 1 auto;
+    max-width: 100%;
+    background: #eeeeff;
+    border: 1px solid #eeeeff;
+    color: #9c9aa6;
+    padding: 0.75rem 1.25rem;
+    border-radius: 25px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.newsletter-input::placeholder {
+    color: #9c9aa6;
+}
+
+.newsletter-input:focus {
+    background: #d4d4f0;
+    border-color: #6c5ce7;
+    color: #333;
+    box-shadow: none;
+}
+
+.btn-subscribe {
+    background: #df6951;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+
+    .btn-subscribe {
+        width: auto;
+    }
+
+    .newsletter-input {
+        margin-bottom: 0;
+    }
+}
+
+.btn-subscribe:hover {
+    background: #5a4bd1;
+    transform: translateY(-2px);
+}
+
+.newsletter-note {
+    color: #9c9aa6;
+    font-size: 0.85rem;
+}
+
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #b4b6bb;
+}
+
+.footer-bottom a {
+    color: #6c5ce7;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #ffffff;
+}
+
+.social-links {
+    margin-left: 0;
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+        background-position: center bottom;
+        background-size: cover;
+    }
+}
+.footer {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* footer ended */

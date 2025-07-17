@@ -1,0 +1,2957 @@
+/* body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+
+.flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    min-height: 1700px;
+}
+
+.gallery {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.h2-heading {
+
+
+    color: #555;
+
+    margin-top: 50px;
+    font-size: 15px;
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+.left {
+    flex: 2;
+    min-width: 300px;
+}
+
+.left h3 {
+    color: #e76f51;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.right {
+    flex: 1;
+    min-width: 280px;
+}
+
+.h2-heading {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+.price {
+    color: #e76f51;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.rating {
+    color: #f4a261;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.para {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.contents {
+    text-align: right;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    max-width: 700px;
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+strong {
+    width: 180px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        color: #333;
+        max-width: 600px;
+        line-height: 1.8;
+    }
+
+    li {
+        margin-bottom: 12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    strong {
+        width: 180px;
+        color: #f2766a;
+    }
+
+    .contents {
+        flex: 1;
+    }
+
+    /* Special styling for Included and Not Included */
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* Optional: Add icons manually using content + pseudo elements */
+    li:has(strong:contains("Included")) .contents::before,
+    li:has(strong:contains("Not Included")) .contents::before {
+        content: "";
+        display: none;
+    }
+
+    li:has(strong:contains("Included")) .contents span::before {
+        content: "✔ ";
+        color: green;
+    }
+
+    li:has(strong:contains("Not Included")) .contents span::before {
+        content: "✖ ";
+        color: #f2766a;
+    }
+
+.contents {
+    flex: 1;
+}
+
+/* Special styling for Included and Not Included */
+li:has(strong:contains("Included")) .contents,
+li:has(strong:contains("Not Included")) .contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Optional: Add icons manually using content + pseudo elements */
+li:has(strong:contains("Included")) .contents::before,
+li:has(strong:contains("Not Included")) .contents::before {
+    content: "";
+    display: none;
+}
+
+li:has(strong:contains("Included")) .contents span::before {
+    content: "✔ ";
+    color: green;
+}
+
+li:has(strong:contains("Not Included")) .contents span::before {
+    content: "✖ ";
+    color: #f2766a;
+}
+
+
+ul li {
+    padding: 6px 0;
+    font-size: 15px;
+    color: #333;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+    padding: 40px;
+}
+
+ul {
+    margin-top: 120px;
+
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+ul li strong {
+    color: #e76f51;
+    text-align: left;
+}
+
+.main-content {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rating {
+    margin-left: 20px;
+}
+
+.form {
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.city-name {
+    margin-left: 20px;
+}
+
+.left {
+
+    margin-top: 20px;
+}
+
+.image img {
+    display: flex;
+    margin-left: -150px;
+    width: 550px;
+    height: 400px;
+    margin-top: 100px;
+
+}
+
+.details {
+    font-size: 20px;
+    color: #555;
+    margin-left: 40px;
+}
+
+.price {
+    margin-left: 40px;
+}
+
+.right {
+    margin-top: 100px;
+}
+
+.form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e76f51;
+    text-align: center;
+}
+
+.form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background: #e76f51;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background: #cf5c42;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 6px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/* Base styles (already provided in your CSS) */
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    min-height: 1700px;
+}
+
+.gallery {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.h2-heading {
+    color: #555;
+    margin-top: 50px;
+    font-size: 15px;
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+.left {
+    flex: 2;
+    min-width: 300px;
+}
+
+.left h3 {
+    color: #e76f51;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.right {
+    flex: 1;
+    min-width: 280px;
+}
+
+.h2-heading {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.price {
+    color: #e76f51;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.rating {
+    color: #f4a261;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.para {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.contents {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    max-width: 700px;
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: 12px;
+    /* Corrected 'px' to '12px' based on nested strong rule */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+strong {
+    width: 180px;
+    color: #f2766a;
+    /* This rule was nested and is now moved out */
+}
+
+/* Corrected nested ul/li/strong rules */
+ul li strong {
+    color: #e76f51;
+    text-align: left;
+}
+
+.contents {
+    flex: 1;
+}
+
+/* Special styling for Included and Not Included */
+li:has(strong:contains("Included")) .contents,
+li:has(strong:contains("Not Included")) .contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Optional: Add icons manually using content + pseudo elements */
+li:has(strong:contains("Included")) .contents::before,
+li:has(strong:contains("Not Included")) .contents::before {
+    content: "";
+    display: none;
+}
+
+li:has(strong:contains("Included")) .contents span::before {
+    content: "✔ ";
+    color: green;
+}
+
+li:has(strong:contains("Not Included")) .contents span::before {
+    content: "✖ ";
+    color: #f2766a;
+}
+
+ul li {
+    padding: 6px 0;
+    font-size: 15px;
+    color: #333;
+    /* The 'padding: 40px;' was duplicated, removed one */
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin-top: 120px;
+}
+
+.main-content {
+    margin-top: 20px;
+    margin-left: 20px;
+    /* Moved from duplicated rule */
+}
+
+.rating {
+    margin-left: 20px;
+}
+
+.form {
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.city-name {
+    margin-left: 20px;
+}
+
+.left {
+    margin-top: 20px;
+}
+
+.image img {
+    display: flex;
+    margin-left: -150px;
+    width: 550px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.details {
+    font-size: 20px;
+    color: #555;
+    margin-left: 40px;
+}
+
+.price {
+    margin-left: 40px;
+}
+
+.right {
+    margin-top: 100px;
+}
+
+.form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e76f51;
+    text-align: center;
+}
+
+.form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background: #e76f51;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background: #cf5c42;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 6px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/* --- Media Queries --- */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1399.98px) {
+    .flex {
+        width: 95%;
+        /* Adjust flex container width for slightly smaller screens */
+        gap: 20px;
+    }
+
+    .image img {
+        margin-left: -50px;
+        /* Adjust image position */
+        width: 450px;
+        height: 350px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {
+    .container {
+        min-width: unset;
+        /* Remove min-width to allow shrinking */
+        width: 90%;
+        padding: 30px;
+    }
+
+    .flex {
+        width: 95%;
+        /* Keep flex container width fluid */
+        flex-direction: column;
+        /* Stack flex items vertically */
+        align-items: center;
+        /* Center items when stacked */
+        min-height: unset;
+        /* Remove min-height */
+    }
+
+    .left,
+    .right {
+        flex: unset;
+        /* Remove flex sizing */
+        min-width: unset;
+        /* Remove min-width */
+        width: 100%;
+        /* Take full width when stacked */
+    }
+
+    .image img {
+        margin-left: 0;
+        /* Center image */
+        width: 100%;
+        max-width: 550px;
+        /* Limit max width of image */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-top: 50px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns for gallery */
+        margin-left: 0;
+        padding-top: 20px;
+        justify-items: center;
+        /* Center gallery images */
+    }
+
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 0;
+        /* Reset left margins for better centering */
+        text-align: center;
+        /* Center text elements */
+    }
+
+    ul li {
+        justify-content: center;
+        /* Center list items when stacked */
+        padding: 10px 0;
+        /* Adjust padding */
+    }
+
+    strong {
+        width: auto;
+        /* Adjust width for strong element in list */
+        margin-right: 10px;
+    }
+
+    .contents {
+        text-align: left;
+        /* Keep contents left-aligned */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .flex {
+        gap: 15px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        /* Single column for gallery */
+    }
+
+    .gallery img {
+        height: auto;
+        /* Allow image height to adjust */
+        max-width: 400px;
+        /* Limit max-width for smaller screens */
+    }
+
+    .form {
+        margin-right: 0;
+        padding-right: 25px;
+        /* Reset padding-right */
+    }
+
+    .left h3 {
+        font-size: 24px;
+    }
+
+    .h2-heading {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .left h3 {
+        font-size: 20px;
+    }
+
+    .h2-heading {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .rating {
+        font-size: 14px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    .form input,
+    .form textarea,
+    .form button {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    ul li {
+        flex-direction: column;
+        /* Stack list items on very small screens */
+        align-items: center;
+        /* Center content when stacked */
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    strong {
+        width: 100%;
+        /* Full width for strong element */
+        margin-right: 0;
+        margin-bottom: 5px;
+        /* Add some space below strong */
+    }
+
+    .contents {
+        text-align: center;
+        /* Center contents for stacked list items */
+    }
+
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: center;
+        /* Center icons */
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .flex {
+        gap: 10px;
+    }
+
+    .left h3 {
+        font-size: 18px;
+    }
+
+    .h2-heading {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .image img {
+        margin-top: 30px;
+    }
+
+    .form h2 {
+        font-size: 18px;
+    }
+
+    .form p {
+        font-size: 12px;
+    }
+
+    .form input,
+    .form textarea,
+    .form button {
+        font-size: 12px;
+    }
+
+    .gallery img {
+        height: 100px;
+        /* Smaller height for very small screens */
+    }
+}
+
+/* Base styles (kept as is, with minor corrections for efficiency) */
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 900px;
+    /* This will be overridden by media queries */
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 700px;
+    /* This will be overridden by media queries */
+}
+
+.flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
+    /* This will be overridden by media queries */
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    min-height: 1700px;
+    /* This will be overridden by media queries */
+}
+
+.gallery {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+/* Consolidated h2-heading */
+.h2-heading {
+    color: #555;
+    font-size: 40px;
+    /* Primary font size */
+    margin-top: 100px;
+    /* Primary margin-top */
+    margin-left: 20px;
+}
+
+.left {
+    flex: 2;
+    min-width: 300px;
+    margin-top: 20px;
+    /* Moved from duplicated rule */
+}
+
+.left h3 {
+    color: #e76f51;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.right {
+    flex: 1;
+    min-width: 280px;
+    margin-top: 100px;
+    /* Moved from duplicated rule */
+}
+
+.price {
+    color: #e76f51;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+    /* Consolidated margin-left */
+}
+
+.rating {
+    color: #f4a261;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* Moved from duplicated rule */
+}
+
+/* Consolidated para */
+.para {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* Primary font size */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Consolidated ul styles and removed nested strong */
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    max-width: 700px;
+    /* Will be overridden */
+    line-height: 1.8;
+    margin-top: 120px;
+    /* Moved from duplicated rule */
+    margin-bottom: 20px;
+    /* Added for consistency */
+}
+
+li {
+    margin-bottom: 12px;
+    display: flex;
+    /* Keep them in a flex row by default */
+    flex-wrap: wrap;
+    /* Allow wrapping if needed */
+    padding: 6px 0;
+    /* Consolidated padding */
+    font-size: 15px;
+    /* Default font size for list items */
+    color: #333;
+    justify-content: space-between;
+    /* To push strong to left and contents to right */
+    padding-left: 40px;
+    /* Added padding to align with other content */
+    padding-right: 40px;
+    /* Added padding to align with other content */
+}
+
+strong {
+    width: 180px;
+    /* Default width for strong */
+    color: #f2766a;
+    /* Default color for strong */
+}
+
+ul li strong {
+    color: #e76f51;
+    /* Specific color for strong in ul li */
+    text-align: left;
+}
+
+.contents {
+    flex: 1;
+    /* Allow contents to take remaining space */
+    text-align: right;
+    /* Default alignment */
+    font-size: 18px;
+    /* Default content font size */
+}
+
+/* Special styling for Included and Not Included */
+li:has(strong:contains("Included")) .contents,
+li:has(strong:contains("Not Included")) .contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-end;
+    /* Align to end by default */
+}
+
+li:has(strong:contains("Included")) .contents::before,
+li:has(strong:contains("Not Included")) .contents::before {
+    content: "";
+    display: none;
+}
+
+li:has(strong:contains("Included")) .contents span::before {
+    content: "✔ ";
+    color: green;
+}
+
+li:has(strong:contains("Not Included")) .contents span::before {
+    content: "✖ ";
+    color: #f2766a;
+}
+
+.main-content {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form {
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-right: 20px;
+}
+
+.city-name {
+    margin-left: 20px;
+}
+
+.image img {
+    display: flex;
+    margin-left: -150px;
+    width: 550px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.details {
+    font-size: 20px;
+    color: #555;
+    margin-left: 40px;
+}
+
+.form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e76f51;
+    text-align: center;
+}
+
+.form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background: #e76f51;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background: #cf5c42;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 6px;
+    height: 130px;
+    object-fit: cover;
+}
+
+
+/* --- Media Queries --- */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1399.98px) {
+    .flex {
+        width: 90%;
+        /* Adjust flex container width slightly */
+        gap: 30px;
+    }
+
+    .image img {
+        margin-left: -80px;
+        /* Adjust image position */
+        width: 500px;
+        height: 380px;
+    }
+}
+
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (max-width: 1199.98px) {
+    body {
+        padding: 30px;
+    }
+
+    .container {
+        min-width: unset;
+        width: 95%;
+        padding: 30px;
+    }
+
+    .flex {
+        width: 95%;
+        gap: 30px;
+        flex-wrap: wrap;
+        /* Keep wrap by default */
+        min-height: unset;
+        box-shadow: none;
+        /* Remove box-shadow to simplify layout on smaller screens */
+    }
+
+    .left,
+    .right {
+        flex: 1 1 45%;
+        /* Allow both columns to be roughly half width, but can grow/shrink */
+        min-width: 300px;
+        /* Ensure a minimum width for columns */
+    }
+
+    .image img {
+        margin-left: -20px;
+        /* Adjust image position */
+        width: 400px;
+        height: 300px;
+        margin-top: 80px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns for gallery */
+        margin-left: 0;
+        padding-top: 20px;
+        justify-items: center;
+    }
+
+    /* Adjust text alignments for this range if needed */
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 20px;
+        /* Keep left alignment for these elements */
+        text-align: left;
+    }
+
+    ul {
+        max-width: 100%;
+        /* Allow ul to take full width */
+        margin-top: 80px;
+    }
+
+    li {
+        padding-left: 20px;
+        /* Adjust padding for list items */
+        padding-right: 20px;
+    }
+
+    .contents {
+        font-size: 16px;
+        /* Smaller content font size */
+        text-align: right;
+        /* Keep right alignment */
+    }
+
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-end;
+        /* Keep aligning to end */
+    }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (max-width: 991.98px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .flex {
+        flex-direction: column;
+        /* Stack flex items vertically from here */
+        align-items: center;
+        /* Center items when stacked */
+        gap: 20px;
+    }
+
+    .left,
+    .right {
+        flex: unset;
+        min-width: unset;
+        width: 100%;
+        /* Take full width when stacked */
+    }
+
+    .image img {
+        margin-left: 0;
+        /* Center image */
+        width: 100%;
+        max-width: 500px;
+        /* Limit max width */
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        /* Single column for gallery */
+        margin-left: 0;
+        padding-top: 15px;
+        justify-items: center;
+    }
+
+    .form {
+        margin-right: 0;
+    }
+
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 0;
+        /* Reset left margins for better centering */
+        text-align: center;
+        /* Center text elements */
+    }
+
+    ul {
+        margin-top: 50px;
+    }
+
+    li {
+        justify-content: center;
+        /* Center list items when stacked */
+        padding: 10px 0;
+        /* Adjust padding */
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    strong {
+        width: auto;
+        /* Allow strong to take its natural width */
+        margin-right: 10px;
+        /* Add some space after strong */
+    }
+
+    .contents {
+        text-align: left;
+        /* Keep contents left-aligned, but the whole li is centered */
+        font-size: 15px;
+        /* Further reduce content font size */
+    }
+
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: center;
+        /* Center icons */
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .image {
+        display: none;
+        /* HIDE THE IMAGE */
+    }
+
+    .left h3 {
+        font-size: 24px;
+    }
+
+    .h2-heading {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .rating {
+        font-size: 14px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .form input,
+    .form textarea,
+    .form button {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Ensure ul and li remain in the same line as much as possible */
+    li {
+        flex-direction: row;
+        /* Keep as row */
+        justify-content: space-between;
+        /* Space between strong and contents */
+        align-items: flex-start;
+        /* Align items to start */
+        padding: 8px 10px;
+        /* Smaller padding */
+        font-size: 14px;
+        /* Smaller font for list items */
+    }
+
+    strong {
+        width: 120px;
+        /* Adjust width of strong for smaller screens */
+        min-width: 100px;
+        /* Ensure a minimum width */
+        margin-right: 10px;
+    }
+
+    .contents {
+        flex: 1;
+        text-align: right;
+        /* Keep right aligned */
+        font-size: 14px;
+        /* Smaller content font size */
+    }
+
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-end;
+        /* Keep icons to the right */
+        gap: 10px;
+        /* Reduce gap */
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .flex {
+        gap: 10px;
+    }
+
+    .left h3 {
+        font-size: 20px;
+    }
+
+    .h2-heading {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .form h2 {
+        font-size: 18px;
+    }
+
+    .form p {
+        font-size: 12px;
+    }
+
+    .form input,
+    .form textarea,
+    .form button {
+        font-size: 12px;
+    }
+
+    .gallery img {
+        height: 100px;
+    }
+
+    li {
+        flex-direction: column;
+        /* Stack list items on very small screens */
+        align-items: center;
+        /* Center content when stacked */
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    strong {
+        width: 100%;
+        /* Full width for strong element */
+        margin-right: 0;
+        margin-bottom: 5px;
+        /* Add some space below strong */
+    }
+
+    .contents {
+        text-align: center;
+        /* Center contents for stacked list items */
+        font-size: 13px;
+        /* Smallest content font size */
+    }
+
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: center;
+        /* Center icons */
+    }
+}
+/* --- Responsive Adjustments for ul, li, strong, and .contents --- */
+
+/* For screens between 992px and 1199.98px */
+@media (max-width: 1199.98px) {
+    ul {
+        max-width: 100%; /* Allow ul to take full width */
+        margin-top: 80px;
+    }
+    li {
+        padding-left: 20px; /* Adjust padding for list items */
+        padding-right: 20px;
+        /* Ensure they stay in a row, flex-wrap will handle overflow gracefully */
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping if content is too long */
+        justify-content: space-between; /* Space out strong and contents */
+        align-items: flex-start; /* Align items to the top if they wrap */
+    }
+    .contents {
+        font-size: 16px; /* Smaller content font size */
+        text-align: right; /* Keep right alignment */
+        flex: 1; /* Allow contents to take available space */
+        min-width: 100px; /* Prevent contents from becoming too narrow */
+    }
+    strong {
+        width: 180px; /* Maintain fixed width for strong */
+        flex-shrink: 0; /* Prevent strong from shrinking */
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-end; /* Keep aligning to end */
+        gap: 10px; /* Reduce gap between included/not included items */
+    }
+}
+
+/* For screens between 768px and 991.98px */
+@media (max-width: 991.98px) {
+    ul {
+        margin-top: 50px;
+    }
+    li {
+        padding: 10px 15px; /* Adjust padding */
+        /* Keep as row, allow wrap, space between, align top */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    strong {
+        width: 150px; /* Reduce width of strong for this breakpoint */
+        flex-shrink: 0;
+    }
+
+    .contents {
+        font-size: 15px; /* Further reduce content font size */
+        flex: 1;
+        min-width: 80px; /* Prevent contents from becoming too narrow */
+    }
+
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-end; /* Keep icons to the right */
+        gap: 8px; /* Further reduce gap */
+    }
+}
+
+
+/* For screens less than 768px (767.98px and below) */
+@media (max-width: 767.98px) {
+    .image {
+        display: none; /* HIDE THE IMAGE */
+    }
+
+    ul {
+        margin-top: 30px; /* Adjust margin for ul */
+        padding-left: 0; /* Remove padding from ul itself */
+        padding-right: 0;
+        max-width: 100%;
+    }
+
+    li {
+        flex-direction: row; /* Keep as row by default */
+        justify-content: space-between; /* Space between strong and contents */
+        align-items: flex-start; /* Align items to start */
+        padding: 8px 10px; /* Smaller padding for li */
+        font-size: 14px; /* Smaller font for list items */
+        border-bottom: 1px solid #eee; /* Add a subtle separator for clarity */
+        margin-bottom: 0; /* Remove bottom margin if separator is used */
+    }
+    li:last-child {
+        border-bottom: none; /* No separator for the last item */
+    }
+
+    strong {
+        width: 120px; /* Adjust width of strong for smaller screens */
+        min-width: 100px; /* Ensure a minimum width */
+        margin-right: 10px; /* Add space between strong and contents */
+        text-align: left; /* Ensure strong is left-aligned */
+        flex-shrink: 0;
+    }
+
+    .contents {
+        flex: 1; /* Allow contents to take remaining space */
+        text-align: right; /* Keep right aligned */
+        font-size: 14px; /* Smaller content font size */
+        word-break: break-word; /* Allow long words to break */
+    }
+
+    /* Adjust specific included/not included styling for this size */
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        display: flex; /* Keep flex for icons */
+        flex-wrap: wrap; /* Allow wrapping of icons if too many */
+        justify-content: flex-end; /* Keep icons to the right */
+        gap: 5px; /* Further reduce gap between individual items */
+        text-align: right; /* Ensure text is right-aligned */
+    }
+
+    /* Force spans inside contents to be inline-block for better wrapping control */
+    li:has(strong:contains("Included")) .contents span,
+    li:has(strong:contains("Not Included")) .contents span {
+        display: inline-block;
+        white-space: nowrap; /* Prevent individual items from breaking internally */
+    }
+
+    /* Fallback for extremely small screens where even 2 columns are too much */
+    @media (max-width: 480px) { /* Adjust this breakpoint if needed */
+        li {
+            flex-direction: column; /* Stack list items vertically */
+            align-items: flex-start; /* Align contents to the start */
+            text-align: left; /* Align text to the left */
+            padding: 8px 5px;
+        }
+        strong {
+            width: auto; /* Allow strong to take its natural width */
+            margin-right: 0;
+            margin-bottom: 5px; /* Add some space below strong */
+        }
+        .contents {
+            text-align: left; /* Keep contents left-aligned when stacked */
+            font-size: 13px; /* Smallest content font size */
+            width: 100%; /* Take full width when stacked */
+            min-width: unset;
+        }
+        li:has(strong:contains("Included")) .contents,
+        li:has(strong:contains("Not Included")) .contents {
+            justify-content: flex-start; /* Align icons to the start when stacked */
+            flex-wrap: wrap; /* Allow wrapping */
+        }
+    }
+}
+/* Base styles (from previous, consolidated/cleaned) */
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 900px; /* This will be overridden by media queries */
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 700px; /* This will be overridden by media queries */
+}
+
+.flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px; /* This will be overridden by media queries */
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    min-height: 1700px; /* This will be overridden by media queries */
+}
+
+/* Consolidated h2-heading and para */
+.h2-heading {
+    color: #555;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.para {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Base styles for ul, li, strong, contents */
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    max-width: 700px; /* Will be overridden */
+    line-height: 1.8;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 20px; /* Added base margin-left for ul */
+    margin-right: 20px; /* Added base margin-right for ul */
+}
+
+li {
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: nowrap; /* Default: try to keep on one line */
+    padding: 6px 0;
+    font-size: 15px;
+    color: #333;
+    justify-content: flex-start; /* Default: Align strong and then contents */
+    align-items: baseline; /* Align text baselines */
+}
+
+strong {
+    width: 180px; /* Default width for strong */
+    color: #f2766a;
+    flex-shrink: 0; /* Prevent strong from shrinking */
+    text-align: left; /* Ensure strong text is left-aligned */
+}
+
+.contents {
+    flex: 1; /* Allow contents to take remaining space */
+    text-align: left; /* Default: Align contents to the left */
+    font-size: 18px; /* Default content font size */
+    word-break: break-word; /* Allow long words to break */
+}
+
+/* Special styling for Included and Not Included */
+li:has(strong:contains("Included")) .contents,
+li:has(strong:contains("Not Included")) .contents {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for multiple items (like tickets, lunch) */
+    gap: 20px;
+    justify-content: flex-start; /* Default: Align included/not included items to start */
+}
+li:has(strong:contains("Included")) .contents span::before {
+    content: "✔ ";
+    color: green;
+}
+li:has(strong:contains("Not Included")) .contents span::before {
+    content: "✖ ";
+    color: #f2766a;
+}
+li:has(strong:contains("Included")) .contents span,
+li:has(strong:contains("Not Included")) .contents span {
+    white-space: nowrap; /* Prevent individual included/not included items from breaking */
+}
+
+
+/* --- Media Queries --- */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1399.98px) {
+    .flex {
+        width: 90%;
+        gap: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (max-width: 1199.98px) {
+    body {
+        padding: 30px;
+    }
+
+    .container {
+        min-width: unset;
+        width: 95%;
+        padding: 30px;
+    }
+
+    .flex {
+        width: 95%;
+        gap: 30px;
+        flex-wrap: wrap;
+        min-height: unset;
+        box-shadow: none;
+    }
+
+    .left,
+    .right {
+        flex: 1 1 45%;
+        min-width: 300px;
+    }
+
+    /* Keep most text elements left-aligned */
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    ul {
+        max-width: 100%;
+        margin-top: 80px;
+        margin-left: 20px; /* Ensure ul alignment */
+        margin-right: 20px;
+    }
+    li {
+        padding-left: 0; /* Let ul's margin handle the offset */
+        padding-right: 0;
+        flex-wrap: nowrap; /* Force on one line if possible */
+        justify-content: flex-start; /* Strong then content */
+    }
+    strong {
+        width: 150px; /* Adjust strong width */
+    }
+    .contents {
+        font-size: 16px; /* Smaller content font size */
+        text-align: left; /* Ensure content is left-aligned */
+        flex: 1; /* Take remaining space */
+        min-width: 150px; /* Prevent it from getting too small */
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-start; /* Align included/not included items to start */
+        gap: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) - THIS IS THE CRITICAL RANGE */
+@media (max-width: 991.98px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .flex {
+        flex-direction: column; /* Stack flex items vertically */
+        align-items: center; /* Center items when stacked */
+        gap: 20px;
+    }
+
+    .left,
+    .right {
+        flex: unset;
+        min-width: unset;
+        width: 100%; /* Take full width when stacked */
+    }
+
+    /* Center text elements here */
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 0;
+        text-align: center; /* Center text for overall layout */
+    }
+
+    ul {
+        margin-top: 50px;
+        max-width: 100%;
+        padding-left: 15px; /* Add padding to ul for list alignment */
+        padding-right: 15px;
+        box-sizing: border-box; /* Include padding in width */
+    }
+    li {
+        padding: 8px 0; /* Adjust padding for li */
+        flex-wrap: nowrap; /* IMPORTANT: Keep on one line for as long as possible */
+        justify-content: flex-start; /* Start strong, then content */
+        align-items: flex-start; /* Align to top */
+        font-size: 14px; /* Adjust list item font size */
+    }
+    strong {
+        width: 130px; /* Adjust width of strong for this breakpoint */
+        min-width: 110px; /* Minimum width to prevent collapse */
+        margin-right: 10px; /* Space between strong and contents */
+        text-align: left;
+    }
+    .contents {
+        font-size: 14px; /* Further reduce content font size */
+        text-align: left; /* Ensure content is left-aligned */
+        flex: 1; /* Allow contents to take remaining space */
+        min-width: 100px; /* Ensure contents doesn't become too small */
+    }
+    /* Specific styling for Included and Not Included within this breakpoint */
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-start; /* Keep icons to the left */
+        gap: 8px;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body {
+        padding: 10px; /* Reduce overall body padding */
+    }
+    .container {
+        padding: 10px; /* Reduce container padding */
+        width: 100%;
+    }
+    .image {
+        display: none; /* HIDE THE IMAGE */
+    }
+
+    /* Ensure text alignment remains consistent for general elements */
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: 20px;
+        padding-left: 10px; /* Adjust ul padding */
+        padding-right: 10px;
+    }
+    li {
+        flex-direction: row; /* KEEP AS ROW */
+        justify-content: flex-start; /* Align strong and contents to the start */
+        align-items: flex-start; /* Align contents to the top */
+        padding: 6px 0; /* Reduce li padding */
+        font-size: 13px; /* Smaller font for list items */
+        border-bottom: 1px solid #eee; /* Add separator */
+        margin-bottom: 0;
+    }
+    li:last-child {
+        border-bottom: none;
+    }
+
+    strong {
+        width: 110px; /* Further reduce width of strong */
+        min-width: 90px;
+        margin-right: 8px; /* Smaller gap */
+    }
+
+    .contents {
+        flex: 1;
+        text-align: left; /* Ensure content is left-aligned */
+        font-size: 13px; /* Smaller content font size */
+        min-width: 80px; /* Ensure contents doesn't become too small */
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-start; /* Keep icons to the left */
+        gap: 5px;
+    }
+
+    /* Fallback for extremely small screens (e.g., less than 400px) */
+    @media (max-width: 400px) { /* Adjust this breakpoint if needed */
+        li {
+            flex-direction: column; /* Finally stack list items */
+            align-items: flex-start; /* Align items to the start */
+            padding: 5px 0;
+        }
+        strong {
+            width: auto; /* Allow strong to take its natural width */
+            margin-right: 0;
+            margin-bottom: 3px; /* Add some space below strong */
+        }
+        .contents {
+            text-align: left;
+            width: 100%; /* Take full width when stacked */
+            min-width: unset;
+        }
+        li:has(strong:contains("Included")) .contents,
+        li:has(strong:contains("Not Included")) .contents {
+            justify-content: flex-start; /* Align icons to the start when stacked */
+            flex-wrap: wrap;
+        }
+    }
+}
+/* --- Base Styles for Lists (ensure these are present in your main CSS) --- */
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    line-height: 1.8;
+    margin-top: 120px; /* Adjust as needed for overall layout */
+    margin-bottom: 20px;
+    margin-left: 20px; /* Base left margin for alignment */
+    margin-right: 20px; /* Base right margin */
+    max-width: 700px; /* Max width for UL */
+    box-sizing: border-box; /* Include padding/border in width */
+}
+
+li {
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: nowrap; /* Default: try to keep strong and contents on one line */
+    padding: 6px 0; /* Vertical padding */
+    font-size: 15px; /* Base font size for list item text */
+    color: #333;
+    justify-content: flex-start; /* Align items to the start of the line */
+    align-items: baseline; /* Align text baselines for strong and contents */
+    box-sizing: border-box;
+}
+
+strong {
+    width: 180px; /* Default width for the strong label */
+    color: #f2766a;
+    flex-shrink: 0; /* Prevent strong from shrinking */
+    text-align: left; /* Ensure strong text is left-aligned */
+    margin-right: 10px; /* Space between strong and contents */
+}
+
+.contents {
+    flex: 1; /* Allow contents to take the remaining space */
+    text-align: left; /* Ensure content text is left-aligned */
+    font-size: 18px; /* Base font size for the actual content */
+    word-break: break-word; /* Allow long words to break to prevent overflow */
+    min-width: 150px; /* Ensure contents has a minimum width before it's forced to break */
+}
+
+/* Special styling for Included and Not Included - These contain multiple spans */
+li:has(strong:contains("Included")) .contents,
+li:has(strong:contains("Not Included")) .contents {
+    display: flex;
+    flex-wrap: wrap; /* IMPORTANT: Allow these specific contents to wrap if they have many items */
+    gap: 20px; /* Space between individual included/not included items */
+    justify-content: flex-start; /* Align these items to the start */
+    text-align: left; /* Keep their text left-aligned */
+}
+
+li:has(strong:contains("Included")) .contents span,
+li:has(strong:contains("Not Included")) .contents span {
+    white-space: nowrap; /* Prevent individual included/not included items (e.g., "Gallery Ticket") from breaking internally */
+    display: inline-block; /* Ensure it respects width/margin for wrapping */
+}
+
+/* --- Media Queries for List Fixes --- */
+
+/* Adjustments for screens between 992px and 1199.98px */
+@media (max-width: 1199.98px) {
+    ul {
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 100%; /* Allow ul to expand */
+    }
+    li {
+        /* li's are already flex with nowrap from base, no need to re-declare */
+        /* Padding handled by ul's margins now */
+    }
+    strong {
+        width: 150px; /* Slightly reduce strong width */
+        margin-right: 10px;
+    }
+    .contents {
+        font-size: 16px; /* Reduce content font size */
+        min-width: 120px; /* Ensure a good min-width */
+    }
+    /* Included/Not Included lists */
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        gap: 15px; /* Slightly reduce gap */
+    }
+}
+
+/* Critical breakpoint: Fix for 768px to 991.98px range (your "ruined" state) */
+@media (max-width: 991.98px) {
+    /* Assuming .flex changes to column here, so ul's parent is now full width */
+    ul {
+        margin-top: 50px;
+        margin-left: 0; /* Center ul on the page if its container is also centered */
+        margin-right: 0;
+        padding-left: 15px; /* Add internal padding to ul */
+        padding-right: 15px;
+        max-width: 100%; /* Ensure ul takes full available width */
+    }
+    li {
+        flex-direction: row; /* Force strong and contents to stay in a row */
+        flex-wrap: nowrap; /* IMP: Explicitly prevent wrapping of strong and contents */
+        justify-content: flex-start; /* Keep items aligned to the left */
+        align-items: flex-start; /* Align items to the top if any content wraps within themselves */
+        padding: 8px 0; /* Adjust vertical padding */
+        font-size: 14px; /* Adjust list item font size */
+        border-bottom: 1px solid #eee; /* Add subtle separator */
+        margin-bottom: 0; /* No margin if border is used */
+    }
+    li:last-child {
+        border-bottom: none; /* No border for the last item */
+    }
+
+    strong {
+        width: 120px; /* Adjust width of strong for smaller screens */
+        min-width: 100px; /* Ensure a minimum width for the label */
+        margin-right: 8px; /* Reduce space after strong */
+    }
+
+    .contents {
+        font-size: 14px; /* Further reduce content font size */
+        flex: 1; /* Take remaining space */
+        min-width: 80px; /* Ensure contents doesn't become too small */
+        text-align: left; /* Ensure text is left-aligned */
+    }
+
+    /* Included/Not Included lists */
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        justify-content: flex-start; /* Keep these items left-aligned */
+        gap: 8px; /* Reduce gap between multiple included/not included items */
+    }
+}
+
+/* Small devices (less than 768px, portrait phones and small tablets) */
+@media (max-width: 767.98px) {
+    /* Image hiding */
+    .image {
+        display: none;
+    }
+
+    ul {
+        margin-top: 20px;
+        padding-left: 10px; /* Smaller internal padding */
+        padding-right: 10px;
+    }
+    li {
+        flex-direction: row; /* Keep strong and contents in a row for as long as possible */
+        flex-wrap: nowrap; /* IMP: Continue to prevent wrapping */
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 6px 0;
+        font-size: 13px; /* Smallest font size for list items */
+    }
+    strong {
+        width: 100px; /* Further reduce strong width */
+        min-width: 80px;
+        margin-right: 6px; /* Smaller gap */
+    }
+    .contents {
+        font-size: 13px; /* Smallest content font size */
+        min-width: 60px; /* Even smaller min-width */
+        text-align: left;
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        gap: 5px; /* Smallest gap */
+    }
+
+    /* VERY Small Devices (e.g., less than 480px) - When stacking is truly necessary */
+    @media (max-width: 480px) {
+        li {
+            flex-direction: column; /* Finally stack strong and contents vertically */
+            align-items: flex-start; /* Align content to the left when stacked */
+            padding: 5px 0;
+        }
+        strong {
+            width: auto; /* Let strong take natural width when stacked */
+            margin-right: 0;
+            margin-bottom: 3px; /* Space below strong when stacked */
+        }
+        .contents {
+            width: 100%; /* Contents takes full width when stacked */
+            min-width: unset; /* Remove min-width when stacking */
+            text-align: left; /* Ensure left alignment */
+        }
+        li:has(strong:contains("Included")) .contents,
+        li:has(strong:contains("Not Included")) .contents {
+            justify-content: flex-start; /* Align icons to the start when stacked */
+        }
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+/* --- Base Styles (already provided in your CSS, consolidated and cleaned) --- */
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 700px;
+    transition: all 0.5s ease-in-out; /* Added: Smooth transition for container resizing */
+}
+
+.flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    min-height: 1700px;
+    transition: all 0.5s ease-in-out; /* Added: Smooth transition for flex layout changes */
+}
+
+/* Consolidated h2-heading and para */
+.h2-heading {
+    color: #555;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Added: Smooth transition for text properties */
+}
+.para {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Added: Smooth transition for text properties */
+}
+
+/* Base styles for ul, li, strong, contents */
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    max-width: 700px;
+    line-height: 1.8;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+li {
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 6px 0;
+    font-size: 15px;
+    color: #333;
+    justify-content: flex-start;
+    align-items: baseline;
+    box-sizing: border-box;
+    position: relative; /* Added: For potential future animations like slide-in */
+    opacity: 1; /* Added: Base opacity for fade-in effect */
+    transform: translateX(0); /* Added: Base transform for slide-in effect */
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out, background-color 0.3s ease; /* Added: Transitions for list items */
+}
+
+li:hover {
+    background-color: rgba(231, 111, 81, 0.05); /* Added: Subtle hover effect */
+}
+
+strong {
+    width: 180px;
+    color: #f2766a;
+    flex-shrink: 0;
+    text-align: left;
+    margin-right: 10px;
+    transition: color 0.3s ease, width 0.3s ease; /* Added: Transition for strong element */
+}
+
+.contents {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+    word-break: break-word;
+    min-width: 150px;
+    transition: font-size 0.3s ease, color 0.3s ease; /* Added: Transition for contents */
+}
+
+/* Special styling for Included and Not Included */
+li:has(strong:contains("Included")) .contents,
+li:has(strong:contains("Not Included")) .contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+li:has(strong:contains("Included")) .contents span::before {
+    content: "✔ ";
+    color: green;
+}
+
+li:has(strong:contains("Not Included")) .contents span::before {
+    content: "✖ ";
+    color: #f2766a;
+}
+
+li:has(strong:contains("Included")) .contents span,
+li:has(strong:contains("Not Included")) .contents span {
+    white-space: nowrap;
+    display: inline-block;
+    transition: transform 0.2s ease-out, color 0.2s ease; /* Added: Transition for individual icons */
+}
+
+li:has(strong:contains("Included")) .contents span:hover,
+li:has(strong:contains("Not Included")) .contents span:hover {
+    transform: translateY(-2px); /* Added: Slight lift on hover for icons */
+    color: #e76f51; /* Added: Color change on hover */
+}
+
+.left {
+    flex: 2;
+    min-width: 300px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out; /* Added: Transition for left section */
+}
+
+.left h3 {
+    color: #e76f51;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Added: Transition for h3 */
+}
+
+.right {
+    flex: 1;
+    min-width: 280px;
+    margin-top: 100px;
+    transition: all 0.5s ease-in-out; /* Added: Transition for right section */
+}
+
+.price {
+    color: #e76f51;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Added: Transition for price */
+}
+
+.rating {
+    color: #f4a261;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Added: Transition for rating */
+}
+
+.main-content {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form {
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out; /* Added: Transition for form */
+}
+
+.form:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Added: Slight shadow increase on hover */
+}
+
+.city-name {
+    margin-left: 20px;
+}
+
+.image img {
+    display: flex;
+    margin-left: -150px;
+    width: 550px;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 8px; /* Added: Slight border-radius for image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Added: Subtle shadow for image */
+    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out; /* Added: Transition for image */
+}
+
+.image img:hover {
+    transform: scale(1.02); /* Added: Slight scale-up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Added: Increased shadow on hover */
+}
+
+.details {
+    font-size: 20px;
+    color: #555;
+    margin-left: 40px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Added: Transition for details */
+}
+
+.form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e76f51;
+    text-align: center;
+    transition: color 0.3s ease; /* Added: Transition for form h2 */
+}
+
+.form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+    transition: color 0.3s ease; /* Added: Transition for form p */
+}
+
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out; /* Added: Transition for form inputs/buttons */
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #e76f51; /* Added: Highlight border on focus */
+    box-shadow: 0 0 5px rgba(231, 111, 81, 0.3); /* Added: Subtle shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
+.form button {
+    background: #e76f51;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Modified: Added transform and box-shadow to button transition */
+}
+
+.form button:hover {
+    background: #cf5c42;
+    transform: translateY(-2px); /* Added: Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added: Subtle shadow on hover */
+}
+
+.form button:active {
+    transform: translateY(0); /* Added: Press effect on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added: Reduced shadow on click */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out; /* Added: Transition for gallery layout changes */
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 6px;
+    height: 130px;
+    object-fit: cover;
+    cursor: pointer; /* Added: Indicate interactivity */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Added: Transition for gallery images */
+}
+
+.gallery img:hover {
+    transform: scale(1.05) rotate(2deg); /* Added: Slight scale and rotation on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Added: More prominent shadow on hover */
+    z-index: 10; /* Added: Bring hovered image to front */
+}
+
+/* --- Media Queries --- */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1399.98px) {
+    .flex {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .image img {
+        margin-left: -80px;
+        width: 500px;
+        height: 380px;
+    }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (max-width: 1199.98px) {
+    body {
+        padding: 30px;
+    }
+
+    .container {
+        min-width: unset;
+        width: 95%;
+        padding: 30px;
+    }
+
+    .flex {
+        width: 95%;
+        gap: 30px;
+        flex-wrap: wrap;
+        min-height: unset;
+        box-shadow: none;
+    }
+
+    .left,
+    .right {
+        flex: 1 1 45%;
+        min-width: 300px;
+    }
+
+    .image img {
+        margin-left: -20px;
+        width: 400px;
+        height: 300px;
+        margin-top: 80px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        padding-top: 20px;
+        justify-items: center;
+    }
+
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    ul {
+        max-width: 100%;
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    strong {
+        width: 150px;
+    }
+    .contents {
+        font-size: 16px;
+        min-width: 120px;
+        text-align: left;
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        gap: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (max-width: 991.98px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left,
+    .right {
+        flex: unset;
+        min-width: unset;
+        width: 100%;
+    }
+
+    .image img {
+        margin-left: 0;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        padding-top: 15px;
+        justify-items: center;
+    }
+
+    .form {
+        margin-right: 0;
+    }
+
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: 50px;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    li {
+        padding: 8px 0;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 14px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 0;
+    }
+    li:last-child {
+        border-bottom: none;
+    }
+    strong {
+        width: 120px;
+        min-width: 100px;
+        margin-right: 8px;
+    }
+    .contents {
+        font-size: 14px;
+        min-width: 80px;
+        text-align: left;
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        gap: 8px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 10px;
+        width: 100%;
+    }
+    .image {
+        display: none;
+    }
+
+    .left h3,
+    .h2-heading,
+    .price,
+    .rating,
+    .para,
+    .city-name,
+    .main-content,
+    .details {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    li {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 6px 0;
+        font-size: 13px;
+    }
+    strong {
+        width: 100px;
+        min-width: 80px;
+        margin-right: 6px;
+    }
+    .contents {
+        font-size: 13px;
+        min-width: 60px;
+        text-align: left;
+    }
+    li:has(strong:contains("Included")) .contents,
+    li:has(strong:contains("Not Included")) .contents {
+        gap: 5px;
+    }
+
+    /* VERY Small Devices (e.g., less than 480px) */
+    @media (max-width: 480px) {
+        li {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 5px 0;
+        }
+        strong {
+            width: auto;
+            margin-right: 0;
+            margin-bottom: 3px;
+        }
+        .contents {
+            width: 100%;
+            min-width: unset;
+            text-align: left;
+        }
+        li:has(strong:contains("Included")) .contents,
+        li:has(strong:contains("Not Included")) .contents {
+            justify-content: flex-start;
+        }
+    }
+}
+
+
+
+
+/* Add this to your existing CSS file */
+
+/* Keyframe for the vertical wave animation */
+@keyframes verticalWave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+    40% {
+        transform: translateY(5px);
+    }
+    60% {
+        transform: translateY(-3px);
+    }
+    80% {
+        transform: translateY(3px);
+    }
+}
+
+/* Container for the "Let's Travel" animated text */
+.lets-travel-animated {
+    position: absolute; /* Position it relative to its closest positioned ancestor (.container) */
+    top: 50%; /* Start roughly in the middle vertically */
+    right: -100px; /* Position it outside the right edge of the container initially */
+    transform: translateY(-50%) rotate(90deg); /* Center vertically and rotate 90 degrees for vertical text */
+    transform-origin: center center; /* Ensure rotation is around its center */
+    color: #e76f51; /* Your vibrant orange color */
+    font-family: 'Albert Sans', sans-serif; /* A clear, readable font */
+    font-size: 3.5em; /* Large font size */
+    font-weight: 800; /* Bold */
+    text-transform: uppercase; /* All caps */
+    letter-spacing: 5px; /* Space out letters slightly */
+    white-space: nowrap; /* Prevent text from wrapping */
+    z-index: 5; /* Ensure it's above background elements but below main content */
+    pointer-events: none; /* Make sure it doesn't block clicks on content behind it */
+    opacity: 0.8; /* Slightly transparent to blend */
+    animation: fadeInSlideRight 1.5s ease-out forwards; /* Initial animation on load */
+}
+
+/* Styling for individual letters within "Let's Travel" to animate them separately */
+.lets-travel-animated span {
+    display: inline-block; /* Essential for individual letter animation */
+    animation: verticalWave 2s infinite ease-in-out; /* Apply wave animation to each letter */
+    /* Add animation delay for a staggered effect */
+}
+
+/* Staggering the animation for each letter */
+.lets-travel-animated span:nth-child(1) { animation-delay: 0.1s; }
+.lets-travel-animated span:nth-child(2) { animation-delay: 0.2s; }
+.lets-travel-animated span:nth-child(3) { animation-delay: 0.3s; }
+.lets-travel-animated span:nth-child(4) { animation-delay: 0.4s; } /* Apostrophe/space */
+.lets-travel-animated span:nth-child(5) { animation-delay: 0.5s; } /* S in Let's */
+.lets-travel-animated span:nth-child(6) { animation-delay: 0.6s; } /* T in Travel */
+.lets-travel-animated span:nth-child(7) { animation-delay: 0.7s; }
+.lets-travel-animated span:nth-child(8) { animation-delay: 0.8s; }
+.lets-travel-animated span:nth-child(9) { animation-delay: 0.9s; }
+.lets-travel-animated span:nth-child(10) { animation-delay: 1.0s; }
+.lets-travel-animated span:nth-child(11) { animation-delay: 1.1s; }
+.lets-travel-animated span:nth-child(12) { animation-delay: 1.2s; }
+
+
+/* Initial animation to slide the text into view */
+@keyframes fadeInSlideRight {
+    0% {
+        right: -300px; /* Start far right */
+        opacity: 0;
+    }
+    100% {
+        right: -100px; /* End at desired position */
+        opacity: 0.8;
+    }
+}
+
+
+/* --- Media Queries for the "Let's Travel" text --- */
+
+/* Adjust position and size for larger desktops */
+@media (max-width: 1399.98px) {
+    .lets-travel-animated {
+        font-size: 3em;
+        right: -80px; /* Adjust based on new flex width */
+    }
+    @keyframes fadeInSlideRight {
+        0% { right: -250px; opacity: 0; }
+        100% { right: -80px; opacity: 0.8; }
+    }
+}
+
+/* Adjust for desktops (when flex might wrap) */
+@media (max-width: 1199.98px) {
+    .lets-travel-animated {
+        position: relative; /* Change to relative positioning */
+        width: 100%; /* Take full width */
+        text-align: center; /* Center the text */
+        top: auto;
+        right: auto;
+        margin-top: 40px; /* Add some margin from content above */
+        transform: rotate(0deg); /* Remove rotation */
+        font-size: 2.5em; /* Smaller font */
+        letter-spacing: 3px;
+        opacity: 1; /* Make it fully opaque when horizontal */
+        animation: none; /* Disable initial slide animation for this layout */
+    }
+    .lets-travel-animated span {
+        animation: none; /* Disable individual wave animation when horizontal */
+    }
+    .lets-travel-animated::before { /* Add a simple border-bottom */
+        content: '';
+        display: block;
+        width: 100px;
+        height: 2px;
+        background-color: #e76f51;
+        margin: 10px auto 0;
+    }
+}
+
+/* Adjust for tablets and smaller */
+@media (max-width: 991.98px) {
+    .lets-travel-animated {
+        font-size: 2em;
+        margin-top: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+/* Hide on very small mobile screens if it becomes too intrusive */
+@media (max-width: 767.98px) {
+    .lets-travel-animated {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+}
+
+
+.sky-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* keeps your form & content clickable */
+    overflow: hidden;
+    z-index: 1;
+}
+
+.airplane {
+    position: absolute;
+    top: 100px; /* adjust for your hero position */
+    left: -100px;
+    width: 80px;
+    height: 40px;
+    background: url('https://cdn-icons-png.flaticon.com/512/7893/7893979.png') no-repeat center;
+    background-size: contain;
+    animation: flyPlane 15s linear infinite;
+    opacity: 0.8;
+}
+
+.parachute {
+    position: absolute;
+    top: -80px;
+    width: 40px;
+    height: 50px;
+    background: url('https://cdn-icons-png.flaticon.com/512/2086/2086803.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.9;
+    animation: fallParachute 10s linear infinite;
+}
+
+.parachute:nth-child(2) {
+    left: 30%;
+    animation-delay: 0s;
+}
+
+.parachute:nth-child(3) {
+    left: 50%;
+    animation-delay: 4s;
+}
+
+.parachute:nth-child(4) {
+    left: 70%;
+    animation-delay: 2s;
+}
+
+@keyframes flyPlane {
+    0% { left: -100px; top: 100px; transform: rotate(0deg); }
+    50% { top: 80px; transform: rotate(5deg); }
+    100% { left: 110%; top: 100px; transform: rotate(0deg); }
+}
+
+@keyframes fallParachute {
+    0% { top: -80px; transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { top: 600px; transform: rotate(-10deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
